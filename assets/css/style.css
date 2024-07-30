@@ -82,6 +82,7 @@ ol li {
     padding: 7px;
     padding-left: 15px;
     text-align: justify;
+    line-height: 25px;
 }
 
 ol li::marker {
@@ -95,4 +96,32 @@ ol {
 
 ol :last-child {
     padding-bottom: 35px;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    margin: 0;
+}
+
+tr:last-child {
+    border: none;
+}
+
+td:last-child {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+td:first-child {
+    padding-left: 25px;
+}
+
+td {
+    padding: 13px;
 }
