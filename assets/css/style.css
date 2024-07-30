@@ -12,7 +12,7 @@ body {
 
 .container {
     background-color: white;
-    border: solid, 1px, hsl(30, 18%, 87%);
+    border: 1px, solid, hsl(30, 18%, 87%);
     border-radius: 25px;
     padding: 50px;
 }
@@ -23,6 +23,7 @@ img {
 }
 
 h1 {
+    font-family: "young Serif", serif;
     margin: 25px 0px;
     font-weight: 400;
 }
@@ -48,4 +49,29 @@ h1 {
 
 .preparation-list li::marker {
     color: hsl(332, 51%, 32%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "young Serif", serif;
+    margin: 25px 0px;
+    font-weight: 400;
+}
+
+.ingredients-list {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.ingredients-list li {
+    margin-left: 25px;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.ingredients-list :last-child {
+    padding-bottom: 40px;
+}
+
+.ingredients-list li::marker {
+    color: hsl(14, 45%, 36%);
 }
