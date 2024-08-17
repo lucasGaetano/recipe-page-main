@@ -24,7 +24,7 @@ img {
 
 h1 {
     font-family: "young Serif", serif;
-    margin: 25px 0px;
+    margin: 25px 0;
     font-weight: 400;
 }
 
@@ -124,4 +124,8 @@ td:first-child {
 
 td {
     padding: 13px;
+}
+
+.attribution {
+    margin-top: 10px;
 }
